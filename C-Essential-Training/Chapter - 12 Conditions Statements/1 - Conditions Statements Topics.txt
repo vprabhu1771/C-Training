@@ -1,0 +1,13 @@
+if statement
+
+if else statement
+
+if else with logical operator
+
+nested if else statement
+
+nested if else statement with logical operators
+
+Ternary Operator
+
+Switch Statement

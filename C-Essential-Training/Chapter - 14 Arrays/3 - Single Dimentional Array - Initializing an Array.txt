@@ -1,0 +1,36 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// array size
+#define size 5
+
+// main function
+void main()
+{
+	int i, array[size] = {10, 20, 30, 40, 50 };	
+
+	// clear previous output
+	clrscr();
+
+	// printing integer array
+
+	for(i = 0; i < size; i++)
+	{
+		printf("%d : %d\n", i, array[i]);
+	}
+
+	// get output window front to user
+	getch();
+}
+
+
+OUTPUT
+
+0	:	10
+1	:	20
+2	:	30
+3	:	40
+4	:	50

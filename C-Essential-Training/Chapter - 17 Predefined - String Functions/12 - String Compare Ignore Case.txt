@@ -1,0 +1,89 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// string function
+#include<string.h>
+
+// array size
+#define size 100
+
+// main function
+void main()
+{
+	int result;
+
+	char str1[size], str2[size];
+	
+	// clear previous output
+	clrscr();
+
+	puts("Enter string 1 data");
+
+	scanf("%s", str1);
+		
+	puts("Enter string 2 data");
+
+	scanf("%s", str2);
+	
+// direct result
+	
+	printf("%d\n",strcmpi(str1, str2);
+
+// store result then printing
+
+	result = strcmpi(str1, str2);
+
+	printf("%d\n",result);
+	
+	// get output window front to user
+	getch();
+}
+
+
+OUTPUT
+
+Enter string 1 data 
+PRABHU
+
+Enter string 2 data 
+prabhu
+
+0
+0
+
+OUTPUT
+
+Enter string 1 data 
+pra
+
+Enter string 2 data 
+prabhu
+
+-97
+-97
+
+
+OUTPUT
+
+Enter string 1 data 
+prabhu
+
+Enter string 2 data 
+pra
+
+97
+97
+
+OUTPUT
+
+Enter string 1 data 
+PRABHU
+
+Enter string 2 data 
+prabhu
+
+0
+0

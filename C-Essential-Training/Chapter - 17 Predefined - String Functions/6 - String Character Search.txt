@@ -1,0 +1,46 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// string function
+#include<string.h>
+
+// array size
+#define size 100
+
+// main function
+void main()
+{
+	char name[size], search;
+	
+	// clear previous output
+	clrscr();
+
+	puts("Enter your name");
+
+	scanf("%s", name);
+		
+	printf("enter search character\n");
+
+	scanf("%c", &search);
+
+	if(strchr(name, search))
+		puts("found");
+	else
+		puts("not found");
+
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+Enter your name
+prabhu
+
+enter search character 
+u
+
+found

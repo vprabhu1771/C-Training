@@ -1,0 +1,17 @@
+fun main() {
+    var x: Byte
+
+    x = 5
+
+    var y: Byte
+
+    y = 10
+
+    println("x = ${x}")
+
+    println("y = ${y}")
+}
+
+output
+x = 5
+y = 10

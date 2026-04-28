@@ -1,0 +1,45 @@
+Perform mathematical Addition
+
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int x = 2, y = 3, result;
+
+	// clear previous output
+	clrscr();
+
+
+	printf("x = %d\n", x);
+
+	printf("y = %d\n", y);
+
+
+	// direct result printing
+	printf("%d + %d = %d\n", x, y, x+y);
+
+
+	// store result and printing
+	result = x + y;
+
+	printf("%d + %d = %d\n", x, y, result);
+
+
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+x = 2
+
+y = 3
+
+2 + 3 = 5
+
+2 + 3 = 5

@@ -1,0 +1,17 @@
+All variables initialized with integer values of Int have the 
+inferred type Int
+
+
+fun main() {
+    var x = 5
+
+    var y = 10
+
+    println("x = ${x}")
+
+    println("y = ${y}")
+}
+
+output
+x = 5
+y = 10

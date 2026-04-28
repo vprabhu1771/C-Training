@@ -1,0 +1,9 @@
+C also Provides a set of built-in types that represent Booleans.
+
+For Example 
+
+The Type Booleans represents boolean data type or objects that can have two type of values:
+
+1. true
+
+2. false

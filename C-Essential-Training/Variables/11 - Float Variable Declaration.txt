@@ -1,0 +1,17 @@
+fun main() {
+    var x: Float 
+    
+    x = 5F
+
+    var y: Float 
+    
+    y = 10F
+
+    println("x = ${x}")
+
+    println("y = ${y}")
+}
+
+output
+x = 5.0
+y = 10.0

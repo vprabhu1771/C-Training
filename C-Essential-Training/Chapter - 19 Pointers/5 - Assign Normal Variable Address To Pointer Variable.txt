@@ -1,0 +1,7 @@
+age_ptr = &age;
+
+price_ptr = &price;
+
+data_ptr = &data;
+
+name_ptr = &name;

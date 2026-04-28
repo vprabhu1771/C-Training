@@ -1,0 +1,22 @@
+Problem Statement
+
+I Have a Garage
+
+I want to store all the information about the cars which are available in my Garage.
+
+Car 1 SPECIFICATIONS
+
+Engine	DDis 190 Engine
+Fuel Type	Petrol
+Fuel Tank Capacity	37
+Seating Capacity	5
+City Mileage	19.74 kmpl
+
+
+Car 2 SPECIFICATIONS
+
+Engine	1.2 L Kappa Dual VTVT
+Fuel Type	Diesel
+Fuel Tank Capacity	35
+Seating Capacity	5
+City Mileage	22.54 kmpl

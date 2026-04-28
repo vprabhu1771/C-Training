@@ -1,0 +1,59 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// step 1 function declaration with pointer parameter
+void swap(int *px, int *py);
+
+// main function
+void main()
+{
+	int x, y;
+
+	clrscr();
+
+	puts(“Enter x value”);
+
+	scanf(“%d”, &x);
+
+	puts(“Enter y value”);
+
+	scanf(“%d”, &y);
+
+// step 2 function calling with passing address
+	swap(&x, &y);
+
+	printf(“x = %d\n”, x);
+
+	printf(“y = %d\n”, y);
+	getch();
+}
+
+// step 2 function definition with pointer parameter
+
+void swap(int *px, int *py)
+{
+	int temp = *px;
+
+	*px = *py;
+
+	*py = temp;
+}
+
+
+OUTPUT
+
+Enter x value
+
+10
+
+Enter y value
+
+20
+
+x = 20
+
+y = 10
+

@@ -1,0 +1,10 @@
+#include <string.h>
+
+age = 18
+
+price = 22.22;
+
+data = 'a';
+
+// Assign a string value to the 'name' array
+strcpy(name, "Hello, World!");

@@ -1,0 +1,10 @@
+All variables initialized with characters values of Char have the inferred type Char.
+
+fun main() {
+    var data = 'A'
+
+    println("data = ${data}")
+}
+
+output
+data = A

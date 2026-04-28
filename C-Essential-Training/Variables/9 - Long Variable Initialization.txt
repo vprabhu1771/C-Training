@@ -1,0 +1,13 @@
+fun main() {
+    var x: Long = 5L
+
+    var y: Long = 10L
+
+    println("x = ${x}")
+
+    println("y = ${y}")
+}
+
+output
+x = 5
+y = 10

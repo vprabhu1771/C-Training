@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/142508/how-do-i-check-os-with-a-preprocessor-directive?noredirect=1&lq=1

@@ -1,0 +1,44 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main() {
+    
+    int age;
+
+    // Get user input for age
+    printf("Enter your age: ");
+
+    scanf("%d", &age);
+    
+    if (age >= 18) {
+
+        printf("your age is over 18\n");
+        
+        if (age >= 20) {
+
+            printf("your age is over 20\n");
+
+        } else {
+
+            printf("your age below 20\n");
+
+        }
+
+    } else {
+
+        printf("your age is below 18\n");
+
+    }
+    
+}
+
+
+OUTPUT
+
+your age is over 18
+
+your age is over 20

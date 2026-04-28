@@ -1,0 +1,10 @@
+fun main() {
+    var course_name: String
+
+    course_name = "Android Development"
+
+    println("Course Name\t:\t${course_name}")
+}
+
+output
+Course Name	:	Android Development

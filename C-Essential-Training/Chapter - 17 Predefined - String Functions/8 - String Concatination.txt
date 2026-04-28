@@ -1,0 +1,52 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// string function
+#include<string.h>
+
+// array size
+#define size 100
+
+// main function
+void main()
+{
+	char first_name[size], last_name[size];
+	
+	// clear previous output
+	clrscr();
+
+	puts("Enter your first name");
+
+	scanf("%s", first_name);
+		
+	puts("Enter your last name");
+
+	scanf("%s", last_name);
+
+// string concatenated function first argument is destination
+// second argument is source
+
+	strcat(first_name, last_name);
+
+	puts("concatenated string");
+
+	printf("%s\n", str1);
+
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+output
+Enter your first name
+selva
+
+Enter your last name
+ ganapathy
+
+concatenated string
+selva ganapathy

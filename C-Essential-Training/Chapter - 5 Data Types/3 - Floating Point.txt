@@ -1,0 +1,12 @@
+C also Provides a set of built-in types that represent Floating Point numbers.
+
+For Example 
+
+There are two types Floating Point numbers with different sizes and hence, value ranges
+
+Data Type	Size
+(bits)	Significant bits	Exponent
+bits	Decimal 
+digits
+Float	32	24	8	6-7
+Double	64	53	11	15-16

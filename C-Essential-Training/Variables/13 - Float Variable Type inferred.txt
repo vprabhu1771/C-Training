@@ -1,0 +1,15 @@
+All variables initialized with floating-point values of Float have the inferred type Float
+
+fun main() {
+    var x = 5F
+
+    var y = 10F
+
+    println("x = ${x}")
+
+    println("y = ${y}")
+}
+
+output
+x = 5.0
+y = 10.0

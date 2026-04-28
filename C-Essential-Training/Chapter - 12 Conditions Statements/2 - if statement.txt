@@ -1,0 +1,34 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int age;
+
+	// clear previous output
+	clrscr();
+
+	printf("Enter your age\n");
+
+	scanf("%d", &age);
+
+	if(age >= 18)
+	{
+		printf("you are eligible for voting");
+	}
+	
+	// get output window front to user
+	getch();
+}
+
+
+OUTPUT
+
+Enter your age
+20
+
+you are eligible for  voting

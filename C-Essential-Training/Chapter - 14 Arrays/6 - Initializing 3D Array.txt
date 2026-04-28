@@ -1,0 +1,63 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int x[20][20], y[20][20], result[20][20], row, col, i, j;
+
+	// clear previous output
+	clrscr();
+
+	printf("enter row\n");
+
+	scanf("%d", &row);
+
+	printf("enter column\n");
+	
+	scanf("%d", &col);
+
+	printf("Enter first matrix value\n");
+
+	for(i = 0; i < row; i++)
+	{
+		for(j = 0; j < col; j++)
+		{
+			printf("row = %d : col = %d\n", i, j);
+		
+			scanf("%d", &x[i][j]);
+		}
+	}
+
+	printf("Enter second matrix value\n");
+
+	for(i = 0; i < row; i++)
+	{
+		for(j = 0; j < col; j++)
+		{
+			printf("row = %d : col = %d\n", i, j);
+		
+			scanf("%d", &y[i][j]);
+		}
+	}
+
+	printf("addition matrix value\n");
+
+	for(i = 0; i < row; i++)
+	{
+		for(j = 0; j < col; j++)
+		{
+			result[i][j] = x[i][j] + y[i][j];
+		
+			printf("%d\t", result[i][j]);
+		}
+		
+		printf("\n");
+
+	}
+	// get output window front to user
+	getch();
+}

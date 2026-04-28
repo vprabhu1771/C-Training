@@ -1,0 +1,16 @@
+All variables initialized with long values of Long have the 
+inferred type Long
+
+fun main() {
+    var x = 5L
+
+    var y = 10L
+
+    println("x = ${x}")
+
+    println("y = ${y}")
+}
+
+output
+x = 5.0
+y = 10.0

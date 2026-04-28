@@ -1,0 +1,36 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// array size
+#define size 5
+
+// main function
+void main()
+{
+	int i, array[size];	
+
+	// clear previous output
+	clrscr();
+
+	// printing integer array
+
+	for(i = 0; i < size; i++)
+	{
+		printf("%d : %p\n", i, &array[i]);
+	}
+
+	// get output window front to user
+	getch();
+}
+
+
+OUTPUT
+
+0	:	FFEE
+1	:	FFE1
+2	:	FFE2
+3	:	FFE3
+4	:	FFE4

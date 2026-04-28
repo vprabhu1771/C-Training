@@ -1,0 +1,24 @@
+Display Double quote in output screen
+
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+
+	// clear previous output
+	clrscr();
+
+	printf("I am from \"Cuddalore\"");
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+I am from "Cuddalore"

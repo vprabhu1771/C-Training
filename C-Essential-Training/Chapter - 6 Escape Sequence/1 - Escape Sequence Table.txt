@@ -1,0 +1,9 @@
+No	Escape Sequences	Meaning
+1	\t	Tab
+2	\b	Backspace
+3	\n	New Line
+4	\r	Carriage Return
+5	\’	Escape Single Quote
+6	\”	Escape Double Quote
+7	\\	Escape Backslash
+8	\$	Escape Dollar Symbol

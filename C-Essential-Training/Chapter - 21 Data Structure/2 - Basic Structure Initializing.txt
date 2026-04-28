@@ -1,0 +1,33 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// structure declaration
+
+struct date_of_birth
+{
+	int date;
+	int month;
+	int year;
+};
+
+// main function
+void main()
+{
+	// structure initializing
+	struct date_of_birth abi = {3,8,1992}, ram = {23,3,1990};
+
+	clrscr();
+
+	printf(“%d - %d - %d\n”, abi.date, abi.month, abi.year);
+
+	printf(“%d - %d - %d\n”, ram.date, ram.month, ram.year);
+
+	getch();
+}
+
+output
+3-8-1992
+23-3-1990

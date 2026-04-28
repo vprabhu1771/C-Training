@@ -1,0 +1,34 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// array size
+#define size 20
+
+// main function
+void main()
+{
+	char name[size];
+
+	// clear previous output
+	clrscr();
+
+	printf("enter a name\n");
+
+	scanf("%s", name);
+
+	printf("your name is %s\n", name);
+
+	// get output window front to user
+	getch();
+}
+
+
+OUTPUT
+
+enter a name
+prabhu
+
+your name is prabhu

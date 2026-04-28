@@ -1,0 +1,13 @@
+fun main() {
+    var x: Int = 5
+
+    var y: Int = 10
+
+    println("x = ${x}")
+
+    println("y = ${y}")
+}
+
+output
+x = 5
+y = 10

@@ -1,0 +1,24 @@
+The tab key Tab  on a keyboard is used to advance the cursor to the next tab stop.
+
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+
+	// clear previous output
+	clrscr();
+
+	printf("Name\t:\tPrabhu");
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+Name : Prabhu

@@ -1,0 +1,26 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// math function
+#include<math.h>
+
+// main function
+void main()
+{
+	int x = 2, y = 3;
+	
+	// clear previous output
+	clrscr();
+	
+	printf("raised power value %f\n", pow(x,y));
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+raised power value 8.000000

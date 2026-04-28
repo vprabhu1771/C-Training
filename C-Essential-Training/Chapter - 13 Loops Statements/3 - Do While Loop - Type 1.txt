@@ -1,0 +1,30 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int count = 11;
+
+	// clear previous output
+	clrscr();
+
+	do
+	{
+		printf("count %d\n",count);
+
+		count++;
+
+	}while(count <= 10);
+
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+count 11

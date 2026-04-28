@@ -1,0 +1,43 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// step 1 function declaration with parameter
+int addition(int x, int y);
+
+// main function
+void main()
+{
+	// clear previous output
+	clrscr();
+	
+	// step 3 function calling with manual arguments
+	printf("%d\n", addition(2,3));
+	
+	// get output window front to user
+	getch();
+}
+
+// step 2 function definition
+int addition(int x, int y)
+{
+	int result;
+
+	result = x + y;
+
+	return result;
+}
+
+	( or )
+
+int addition(int x, int y)
+{
+	return x + y
+}
+
+
+OUTPUT
+
+5

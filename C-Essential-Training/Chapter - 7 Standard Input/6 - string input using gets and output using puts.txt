@@ -1,0 +1,35 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+#define size 100
+
+// main function
+void main()
+{
+	char name[size];
+
+	// clear previous output
+	clrscr();
+
+	puts(“Enter your name”);
+
+	gets(name);
+
+	puts(“name is”);
+
+	puts(name);
+
+	// get output window front to user
+	getch();
+}
+
+
+OUTPUT
+
+Enter your name
+prabhu
+
+name is prabhu

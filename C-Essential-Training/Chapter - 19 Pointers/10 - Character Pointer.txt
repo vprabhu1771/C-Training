@@ -1,0 +1,46 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	// normal character variable declaration
+	char data = ‘A’;
+
+	// pointer character variable declaration
+	char *data_ptr;
+
+	// clear previous output
+	clrscr();
+
+	// getting memory address using & sign 
+	// store in pointer variable
+
+	data_ptr = &data;
+	
+	printf(“data address : %p\n”, &data);
+
+	printf(“data ptr address : %p\n”, data_ptr);
+
+	// display values
+	printf(“data value: %c\n”, data);
+
+	printf(“data ptr value : %c\n”, *data_ptr);
+
+	// get output window front to user
+	getch();
+}
+
+
+OUTPUT
+
+data address : FFE1
+
+data ptr address : FFE1
+
+data value: A
+
+data ptr value : A

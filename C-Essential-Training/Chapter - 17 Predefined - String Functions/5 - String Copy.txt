@@ -1,0 +1,43 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// string function
+#include<string.h>
+
+// array size
+#define size 100
+
+// main function
+void main()
+{
+	char str1[size], str2[size];
+	
+	// clear previous output
+	clrscr();
+
+	puts("Enter your name");
+
+	scanf("%s", str1);
+		
+	// string copy function first argument is destination
+	// second argument is source
+
+	strcpy(str2, str1);
+
+	puts("copyed string");
+
+	printf("%s\n", str2);
+
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+Enter your name
+prabhu
+
+prabhu

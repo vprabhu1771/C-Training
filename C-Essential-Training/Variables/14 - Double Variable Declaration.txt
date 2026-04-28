@@ -1,0 +1,17 @@
+fun main() {
+    var x: Double
+
+    x = 5.0
+
+    var y: Double
+
+    y = 10.0
+
+    println("x = ${x}")
+
+    println("y = ${y}")
+}
+
+output
+x = 5.0
+y = 10.0

@@ -1,0 +1,41 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int count = 1, table_no;
+
+	// clear previous output
+	clrscr();
+
+	puts("Enter table no\n");
+
+	scanf("%d", &table_no);
+
+	for(count; count <= 10; count)
+	{
+		printf("%d * %d = %d\n",count,table_no,count*table);
+	}
+
+	
+	// get output window front to user
+	getch();
+}
+
+output
+Enter table no
+2
+1 * 2 = 2
+2 * 2 = 4
+3 * 2 = 6
+4 * 2 = 8
+5 * 2 = 10
+6 * 2 = 12
+7 * 2 = 14
+8 * 2 = 16
+9 * 2 = 18
+10 * 2 = 20

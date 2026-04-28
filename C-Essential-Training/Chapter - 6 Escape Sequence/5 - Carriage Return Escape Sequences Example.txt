@@ -1,0 +1,25 @@
+Carriage Return means reset cursor to beginning of the line
+
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+
+	// clear previous output
+	clrscr();
+
+	printf("Hello\n\rWorld");
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+Hello
+World

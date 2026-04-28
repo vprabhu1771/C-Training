@@ -1,0 +1,39 @@
+break terminates the nearest enclosing loop
+
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int count = 1;
+
+	// clear previous output
+	clrscr();
+
+	for(count; count <= 10; count++)
+	{
+		printf("count %d\n",count);
+		
+		if(count == 3)
+		{
+			printf("Break statement executed");
+			break;
+		}
+	
+	}
+
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+count 1
+count 2
+count 3
+Break statement executed

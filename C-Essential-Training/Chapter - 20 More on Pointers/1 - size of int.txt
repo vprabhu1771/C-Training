@@ -1,0 +1,20 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	clrscr();
+
+ printf("size of integer = %d bytes\n", sizeof(int));
+
+	getch();
+}
+
+
+OUTPUT
+
+size of integer = 2 bytes

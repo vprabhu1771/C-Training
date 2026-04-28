@@ -1,0 +1,10 @@
+All variables initialized with boolean values of Boolean have the inferred type Boolean
+
+fun main() {
+    val result = true
+
+    println("result ${result}")
+}
+
+output
+result true

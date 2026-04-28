@@ -1,0 +1,47 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	// normal integer variable declaration
+	int age = 18;
+
+	// pointer integer variable declaration
+	int *age_ptr;
+
+	// clear previous output
+	clrscr();
+
+	// getting memory address using & sign 
+	// store in pointer variable
+
+	age_ptr = &age;
+	
+	printf(“age address : %p\n”, &age);
+
+	printf(“age ptr address : %p\n”, age_ptr);
+
+	// display values
+
+	printf(“age data : %d\n”, age);
+
+	printf(“age ptr data : %d\n”, *age_ptr);
+
+	// get output window front to user
+	getch();
+}
+
+
+OUTPUT
+
+age address : FFE1
+
+age ptr address : FFE1
+
+age data : 18
+
+age ptr data : 18

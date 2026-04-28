@@ -1,0 +1,24 @@
+Display Dollar Symbol in output screen
+
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+
+	// clear previous output
+	clrscr();
+
+	printf("Hello\$World");
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+Hello$World

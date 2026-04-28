@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    char name[100];
+
+    // Assigning the address of the 'name' array 
+    // to a pointer variable
+
+    char *pointerToName = name;
+
+    // Now, you can use the pointer to access or 
+    // modify the contents of the 'name' array
+    // For example, let's set the first element of
+    // 'name' using the pointer
+
+    *pointerToName = 'A';
+
+    // Print the value at the first index of the 'name' array 
+    // using both array notation and pointer notation
+
+    printf("Using array notation: %c\n", name[0]);
+
+    printf("Using pointer notation: %c\n", *pointerToName);
+
+    return 0;
+}

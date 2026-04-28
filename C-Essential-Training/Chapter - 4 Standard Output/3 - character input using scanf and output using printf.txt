@@ -1,0 +1,30 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	char data;
+
+	// clear previous output
+	clrscr();
+
+	printf(“Enter any character\n”);
+
+	scanf(“%c”, &data);
+
+	printf(“character is %c”, data);
+
+	// get output window front to user
+	getch();
+}
+
+output
+Enter any character
+
+h
+
+character is h

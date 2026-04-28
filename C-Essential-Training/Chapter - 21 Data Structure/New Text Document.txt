@@ -1,0 +1,33 @@
+For Car 1
+
+char *car1Engine = "DDis 190 Engine";
+char *car1FuelType = "Petrol";
+int car1FuelCap = 37;
+int car1SeatingCap = 5;
+float car1CityMileage = 19.74;
+
+
+For Car 2
+
+char *car2Engine = "DDis 190 Engine";
+char *car2FuelType = "Diesel";
+int car2FuelCap = 35;
+int car2SeatingCap = 5;
+float car2CityMileage = 22.54;
+
+
+Cons
+
+Think about it if We have car 2 specifications It is good idea to store all this information in seprate variables. Suppose we have hundred cars then storing all the information in different variables actually not recommended and time consuming as well as memory consume it lead to buggy code cause to crash application. Therefore this not a good idea at all.
+
+Array is also not a good option. Array has the capability to store more than one elements but they all must be of same type. To Understand We want to store more than one elements and that to within a single variable but they all must be of same type.
+
+Our Requirement is to store data of different types
+
+
+Pros
+
+What Happens If we can define our own type or data type. Whicch can accomodate all the required types?
+
+
+Structure is One Stop Solution. A Structure is a user defined data type that can be used to group elements of different types into a single type.

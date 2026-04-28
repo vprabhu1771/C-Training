@@ -1,0 +1,74 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// array size
+#define size 30
+
+struct accounts
+{
+	int ac_no;
+
+	int ac_type;
+
+	char name[size];
+
+	char street[size];
+
+	char city_state[size];
+
+	float balance;
+
+	float last_payment;
+};
+
+// main function
+void main()
+{
+	int ac_no;
+
+	struct account raja = {1212, 1, “raja”, “m.g.road”, 
+	“bangalore”, 2000.0, 500.0 };
+
+	clrscr();
+
+	puts(“Enter Account no”);
+
+	scanf(“%d”, &ac_no);
+	
+	
+	if(ac_no == raja.ac_no)
+	{
+	
+	printf(“Account Holder Name\t:\t %s\n”,raja.name);		
+
+		if(raja.ac_type == 1)
+		{
+			puts(“Account Type\t:\tSaving”);
+		}
+		else
+		{
+			puts(“Account Type\t:\tCurrent”);
+		}
+
+	printf(“Street\t:\t %s\n”,raja.street);		
+
+	printf(“City or State\t:\t %s\n”,raja.city_state);		
+	
+	printf(“Last Payment\t:\t %.1f\n”, raja.last_payment);
+
+	printf(“Balance\t:\t %.1f\n”,raja.balance);
+	}
+
+	getch();
+}
+
+output
+Account Holder Name : raja
+Account Type : Saving
+Street : m.g.road
+City or State : Banglore
+Last Payment : 2000.0
+Balance : 500.0

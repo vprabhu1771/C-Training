@@ -1,0 +1,82 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+struct record
+{
+	char *name;
+
+	int ac_no;
+
+	char *ac_type;
+
+	float balance;
+};
+
+// step 1 function declaration with structres parameter
+struct recoard update(struct record cust);
+
+// main function
+void main()
+{
+
+	
+ struct record customers = {“sanjey”, 3333, “saving” , 33.33};
+
+ clrscr();
+
+ puts(“Before update”);
+
+ printf(“Name : %s\n”, customers.name);
+
+ printf(“AC NO : %d\n”, customers.ac_no);
+
+ printf(“Account Type : %s\n”, customers.ac_type);
+
+ printf(“Balance : %.2f\n”, customers.balance);
+
+ // step 3 function calling with structures arguments
+ customer = update(customer);
+
+ puts(“After update”);
+
+ printf(“Name : %s\n”, customers.name);
+
+ printf(“AC NO : %d\n”, customers.ac_no);
+
+ printf(“Account Type : %s\n”, customers.ac_type);
+
+ printf(“Balance : %.2f\n”, customers.balance);
+
+ getch();
+
+}
+
+// step 2 function definition with structres parameter
+struct recoard update(struct record cust)
+{
+	cust.name = “jones”;
+
+	cust.ac_no = 9999;
+
+	cust.ac_type = “current”;
+
+	cust.balance = 100.0;
+
+	return cust;
+}
+
+output
+Before update
+Name : sanjey
+Account No : 3333
+Account Type : saving
+Balance : 33.33
+
+After update
+Name : jones
+Account No : 9999
+Account Type : current
+Balance : 100.00

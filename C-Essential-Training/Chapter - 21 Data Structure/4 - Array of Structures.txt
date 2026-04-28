@@ -1,0 +1,87 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// array size
+#define size 40
+
+
+struct employee
+{
+	int emp_no;
+
+	char emp_name[size];
+
+	int emp_salary;
+};
+
+// main function
+void main()
+{
+	int i;
+
+	struct employee engineers[2];
+
+	clrscr();
+
+	for(i = 0; i < 2; i++)
+	{
+		printf(“index : %d\n”, i);
+
+		puts(“Enter employee no\n”);
+
+		scanf(“%d”, &engineers[i].emp_no);
+
+		puts(“Enter employee name\n”);
+
+		scanf(“%s”, engineers[i].emp_name);
+
+		puts(“Enter employee salary\n”);
+
+		scanf(“%d”, &engineers[i].emp_salary);
+	}	
+	
+	for(i = 0; i < 2; i++)
+	{
+	  printf(“employee no : %d\n”, engineers[i].emp_no);
+	
+       printf(“employee name : %s\n”, engineers[i].emp_name);
+
+	  printf(“employee salary : %d\n”, engineers[i].salary);
+	}
+
+	getch();
+}
+
+output
+index : 0
+Enter employee no
+121
+Enter employee name
+ram
+Enter employee salary
+2000
+
+index : 1
+Enter employee no
+122
+Enter employee name
+abi
+Enter employee salary
+3000
+
+
+employee no : 121
+
+employee name : ram
+
+employee salary : 2000
+
+
+employee no : 122
+
+employee name : abi
+
+employee salary : 3000

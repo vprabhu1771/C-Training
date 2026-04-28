@@ -1,0 +1,40 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int x, y;
+
+	// clear previous output
+	clrscr();
+
+	printf(“Enter x value\n”);
+
+	scanf(“%d”, &x);
+
+	printf(“Enter y value\n”);
+
+	scanf(“%d”, &y);
+
+	printf(“x value is %d\n”, x);
+
+	printf(“y value is %d\n”, y);
+
+	// get output window front to user
+	getch();
+}
+
+output
+Enter x value
+10
+
+Enter y value
+20
+
+x value is 10
+
+y value is 20

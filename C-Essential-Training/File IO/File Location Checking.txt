@@ -1,0 +1,35 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// standard library
+#include<stdlib.h>
+
+// main function
+void main()
+{
+	// create pointer variable of data type FILE
+	FILE *read_file;
+
+	clrscr();
+
+	// store file memory address	
+	read_file = fopen(“D:\\message.txt”, “r”);
+
+	if(read_file == NULL)
+	{
+		puts(“Cannont open file.”);
+	}
+	else
+	{
+		puts(“File opened successfully”);
+	}
+
+	getch();
+}
+
+output
+
+File opened successully

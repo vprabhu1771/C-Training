@@ -1,0 +1,24 @@
+Backspace is the keyboard key modern computer systems moves the display cursor one position backwards, deletes the character at that position
+
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+
+	// clear previous output
+	clrscr();
+
+	printf("Prabhu\b");
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+Prabh

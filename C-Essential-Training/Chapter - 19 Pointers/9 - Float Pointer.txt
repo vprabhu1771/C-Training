@@ -1,0 +1,46 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	// normal float variable declaration
+	float price = 22.2;
+
+	// pointer float variable declaration
+	float *price_ptr;
+
+	// clear previous output
+	clrscr();
+
+	// getting memory address using & sign 
+	// store in pointer variable
+
+	price_ptr = &price;
+	
+	printf(“price address : %p\n”, &price);
+
+	printf(“price ptr address : %p\n”, price_ptr);
+
+	// display values
+	printf(“price data : %f\n”, price);
+
+	printf(“price ptr data : %f\n”, *price_ptr);
+
+	// get output window front to user
+	getch();
+}
+
+
+OUTPUT
+
+price address : FFE1
+
+price ptr address : FFE1
+
+price data : 18
+
+price ptr data : 18

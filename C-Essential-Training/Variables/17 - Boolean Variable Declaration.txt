@@ -1,0 +1,10 @@
+fun main() {
+    val result: Boolean
+
+    result = true
+
+    println("result ${result}")
+}
+
+output
+result true

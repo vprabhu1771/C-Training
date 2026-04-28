@@ -1,0 +1,26 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// math function
+#include<math.h>
+
+// main function
+void main()
+{
+	float data = 25;
+	
+	// clear previous output
+	clrscr();
+	
+	printf("square root value %f\n", sqrt(data));
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+square root value 5.000000

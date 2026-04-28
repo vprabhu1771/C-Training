@@ -1,0 +1,28 @@
+Perform mathematical Division and result Assignment on same 
+variable
+
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int x = 7;
+
+	// clear previous output
+	clrscr();
+
+	x /= 3;
+
+	printf(“x value is %d”,x);
+
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+x value is 2

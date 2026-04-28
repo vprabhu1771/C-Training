@@ -1,0 +1,26 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// math function
+#include<math.h>
+
+// main function
+void main()
+{
+	float data = 22.25;
+
+	// clear previous output
+	clrscr();
+	
+	printf("ceil value %f\n", ceil(data));
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+ceil value 23.000000

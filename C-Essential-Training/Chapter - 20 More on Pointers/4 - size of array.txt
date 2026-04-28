@@ -1,0 +1,33 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int data1[5];
+
+	float data2[5]
+
+	char data3[5]
+	clrscr();
+
+ printf("size of int array = %d bytes\n", sizeof(data1));
+
+ printf("size of float array = %d bytes\n", sizeof(data2));
+
+printf("size of character array = %d bytes\n", sizeof(data3));
+
+	getch();
+}
+
+
+OUTPUT
+
+size of int array = 10 bytes
+
+size of float array = 20 bytes
+
+size of char array = 5 bytes

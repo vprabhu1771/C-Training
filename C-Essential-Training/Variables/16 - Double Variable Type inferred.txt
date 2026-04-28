@@ -1,0 +1,15 @@
+All variables initialized with double-point values of Double have the inferred type Double
+
+fun main() {
+    var x = 5.0
+
+    var y = 10.0
+
+    println("x = ${x}")
+
+    println("y = ${y}")
+}
+
+output
+x = 5.0
+y = 10.0

@@ -1,0 +1,5 @@
+C also Provides a set of built-in types that represent String.
+
+String Means collection of character or sequence of character
+
+For Example: PRABHU

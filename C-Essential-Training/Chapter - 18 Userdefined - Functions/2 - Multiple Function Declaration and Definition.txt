@@ -1,0 +1,56 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// step 1 function declaration
+void good_morning();
+void good_afternoon();
+void good_evening();
+void good_night();
+
+// main function
+void main()
+{
+	// clear previous output
+	clrscr();
+	
+	// step 3 function calling
+	good_morning();
+	good_afternoon();
+	good_evening();
+	good_night();
+	
+	// get output window front to user
+	getch();
+}
+
+// step 2 function definition
+void good_morning()
+{
+	puts("Good Morning");
+}
+
+void good_afternoon()
+{
+		puts("Good Afternoon");
+}
+
+void good_evening()
+{
+		puts("Good Evening");
+}
+
+void good_night()
+{
+		puts("Good Night");
+}
+
+
+OUTPUT
+
+Good Morning
+Good Afternoon
+Good Evening
+Good Night

@@ -1,0 +1,32 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// array size
+#define size 20
+
+struct employee
+{
+	int emp_no;
+
+	char emp_name[size];
+
+	float salary;
+};
+
+// main function
+void main()
+{
+	clrscr();
+
+printf("sizeof employee= %d bytes ", sizeof(struct employee));
+
+	getch();
+}
+
+
+OUTPUT
+
+size of int array = 26 bytes

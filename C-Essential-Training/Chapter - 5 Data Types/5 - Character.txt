@@ -1,0 +1,15 @@
+C also Provides a set of built-in types that represent Character.
+
+For Example 
+
+Character also known as Character set are represented by the type Char.
+
+There are four types Characters or Character Set
+
+UPPERCASE A TO Z
+
+lowercase a to z
+
+Numbers 0 to 9
+
+Special Character !@#$%^&*()

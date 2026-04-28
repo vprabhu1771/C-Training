@@ -1,0 +1,10 @@
+fun main() {
+    var data: Char
+
+    data = 'A'
+
+    println("data = ${data}")
+}
+
+output
+data = A

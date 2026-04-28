@@ -1,0 +1,7 @@
+printf(“%p\n”, &age);
+
+printf(“%p\n”, &price);
+
+printf("%p\n", &data);
+
+printf("%p\n", &name);

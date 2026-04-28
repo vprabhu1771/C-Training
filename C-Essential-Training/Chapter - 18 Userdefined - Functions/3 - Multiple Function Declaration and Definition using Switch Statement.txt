@@ -1,0 +1,94 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// step 1 function declaration
+void good_morning();
+void good_afternoon();
+void good_evening();
+void good_night();
+
+// main function
+void main()
+{
+	int options;
+
+	// clear previous output
+	clrscr();
+	
+	puts("enter any option");
+
+	puts("press 1 good morning");
+
+	puts("press 2 good afternoon");
+
+	puts("press 3 good evening");
+
+	puts("press 4 good night");
+
+	scanf("%d", &options);
+
+	switch(options)
+	{
+
+		case 1:
+			good_morning();
+			break;
+
+		case 2:
+			good_afternoon();
+			break;
+
+		case 3:
+			good_evening();
+			break;
+
+		case 4:
+			good_night();
+			break;
+
+		default:
+			puts("invalid option");
+			break;
+	}
+
+	// get output window front to user
+	getch();
+}
+
+// step 2 function definition
+void good_morning()
+{
+	puts("Good Morning");
+}
+
+void good_afternoon()
+{
+		puts("Good Afternoon");
+}
+
+void good_evening()
+{
+		puts("Good Evening");
+}
+
+void good_night()
+{
+		puts("Good Night");
+}
+
+
+OUTPUT
+
+enter any option
+
+press 1 good morning
+press 2 good afternoon
+press 3 good evening
+press 4 good night
+
+3
+
+Good Evening

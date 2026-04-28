@@ -1,0 +1,3 @@
+Results	Meaning
+Zero OR Negative Value	False
+One OR Positive Value	True

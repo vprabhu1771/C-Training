@@ -1,0 +1,26 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// math function
+#include<math.h>
+
+// main function
+void main()
+{
+	float data = 22.25;
+	
+	// clear previous output
+	clrscr();
+	
+	printf("floor value %d\n", floor(data));
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+floor value 22.000000

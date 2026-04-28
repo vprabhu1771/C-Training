@@ -1,0 +1,37 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	int count = 11, table_no;
+
+	// clear previous output
+	clrscr();
+
+	puts("Enter table no\n");
+
+	scanf("%d", &table_no);
+
+	do
+	{
+		printf("%d * %d = %d\n",count,table_no,count*table_no);
+
+		count++;
+	
+	}while(count <= 10);
+
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+Enter table no
+2
+
+11 * 2 = 22

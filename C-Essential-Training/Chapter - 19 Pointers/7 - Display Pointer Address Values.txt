@@ -1,0 +1,7 @@
+printf(“%d\n”, *age_ptr);
+
+printf(“%f\n”, *price_ptr);
+
+printf(“%c\n”, *data_ptr);
+
+printf(“%s\n”, *name_ptr);

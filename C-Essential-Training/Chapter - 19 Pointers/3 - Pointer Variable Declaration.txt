@@ -1,0 +1,7 @@
+int *age_ptr;
+
+float *price_ptr;
+
+char *data_ptr;
+
+char *name_ptr;

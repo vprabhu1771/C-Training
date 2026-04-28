@@ -1,0 +1,26 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// single character function
+#include<ctype.h>
+
+// main function
+void main()
+{
+	char data = 'a';
+	
+	// clear previous output
+	clrscr();
+	
+	printf("is lowercase %d\n", islower(data));
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+is lowercase 1

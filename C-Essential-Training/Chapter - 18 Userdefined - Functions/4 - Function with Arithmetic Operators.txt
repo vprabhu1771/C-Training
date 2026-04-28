@@ -1,0 +1,55 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// step 1 function declaration
+void addition();
+
+// main function
+void main()
+{
+	// clear previous output
+	clrscr();
+	
+	// step 3 function calling
+	addition();
+	
+	// get output window front to user
+	getch();
+}
+
+// step 2 function definition
+void addition()
+{
+	int x, y, result;
+
+	puts("enter x value");
+
+	scanf("%d", &x);
+
+	puts("enter y value");
+
+	scanf("%d", &y);
+
+	// direct result printing
+	printf("addition %d\n", x + y);
+
+	// addition logic
+	result = x + y;
+
+	printf("addition %d\n", result);
+}
+
+
+OUTPUT
+
+enter x value
+3
+
+enter y value 
+2
+
+addition 5
+addition 5

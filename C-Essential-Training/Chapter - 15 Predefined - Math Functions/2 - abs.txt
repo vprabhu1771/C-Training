@@ -1,0 +1,26 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// math function
+#include<math.h>
+
+// main function
+void main()
+{
+	int data = -22;
+	
+	// clear previous output
+	clrscr();
+	
+	printf("absolute value %d\n", abs(data));
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+absolute value 22

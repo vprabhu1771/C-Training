@@ -1,0 +1,15 @@
+In this section we are going to learn about the basic types used in c
+
+Number System has three types
+
+1. Natural Numbers
+
+2. Whole Numbers
+
+3. Integers
+
+Natural Numbers are 1, 2, 3, 4, 5, 6, 7, 8, 9 etc
+
+Whole Numbers are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 etc
+
+Integer Numbers are -4, -3, -2, -1, 0, 1, 2, 3, 4

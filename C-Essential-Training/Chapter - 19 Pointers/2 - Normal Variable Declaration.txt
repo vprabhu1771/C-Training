@@ -1,0 +1,7 @@
+int age;
+
+float price;
+
+char data;
+
+char name[100];

@@ -1,0 +1,33 @@
+Newline is a character that marks the end of a line of text. In most modern programming languages, the newline character is 
+represented by either “\n” or “\r”
+
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+
+	// clear previous output
+	clrscr();
+
+	printf("Name\t:\tSuresh\n");
+
+	printf("Course\t:\tAndroid\r\n");
+
+	printf("City\t:\tCuddalore");
+	
+	// get output window front to user
+	getch();
+}
+
+OUTPUT
+
+Name : Suresh
+
+Course : Android
+
+City : Cuddalore

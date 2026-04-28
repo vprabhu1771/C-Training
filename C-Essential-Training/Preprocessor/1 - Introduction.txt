@@ -1,0 +1,26 @@
+The C preprocessor is a tool that runs before the actual compilation of C code. It performs various tasks such as macro substitution, file inclusion, and conditional compilation. The preprocessor is invoked by directives that start with a '#' symbol, like `#define`, `#include`, and `#ifdef`.
+
+Here are some commonly used preprocessor directives:
+
+1. `#define`: Defines macros for code substitution.
+2. `#include`: Includes contents of another file in the current file.
+3. `#ifdef`/`#ifndef`/`#else`/`#endif`: Conditional compilation based on macros.
+4. `#pragma`: Provides compiler-specific instructions or options.
+5. `#error`: Generates a compilation error with a specified message.
+
+For example, consider the following code:
+
+```c
+#include <stdio.h>
+
+#define PI 3.14159
+
+int main() {
+    printf("The value of PI is %f\n", PI);
+    return 0;
+}
+```
+
+In this code, the `#include` directive includes the standard I/O library, and the `#define` directive defines the macro `PI`. The preprocessor replaces all occurrences of `PI` with `3.14159` before compilation.
+
+The preprocessor helps in modularizing code, managing constants, and enabling conditional compilation based on defined macros. It's important to use preprocessor directives carefully and understand their impact on the code during development and debugging.

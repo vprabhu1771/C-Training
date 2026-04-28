@@ -1,0 +1,34 @@
+// standard input and output header file
+#include<stdio.h>
+
+// console input and output header file
+#include<conio.h>
+
+// main function
+void main()
+{
+	char data;
+
+	// clear previous output
+	clrscr();
+
+	puts(“Enter any character”);
+
+	data = getchar();
+
+	puts(“character is”);
+
+	putchar(data);
+
+	// get output window front to user
+	getch();
+}
+
+
+OUTPUT
+
+Enter any character
+v
+
+character is
+v
