@@ -43,6 +43,11 @@ int main() {
     }
 
     fprintf(file, "Hello, World!\n");  // Write to file
+    fprintf(file, "x = %d\n", 12);
+    fprintf(file, "y = %f\n", 1.2);
+    fprintf(file, "Gender = %c\n", 'M');    
+    fprintf(file, "Name = %s\n", "Prabhu");    
+
     fclose(file);  // Close the file
     printf("Data written successfully.\n");
     return 0;
